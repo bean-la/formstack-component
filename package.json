@@ -1,5 +1,5 @@
 {
-  "name": "@beanla/formstack-component",
+  "name": "@beanla/vue-formstack",
   "version": "0.1.0",
   "main": "./dist/formstack.umd.js",
   "private": true,
