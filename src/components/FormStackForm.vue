@@ -5,7 +5,7 @@
           class="form-item"
           v-for="item in formInfo.fields"
           v-bind:key="item.id">
-            <textarea v-if="item.label === 'Message'"
+            <textarea v-if="item.type === 'textarea'"
               v-model="item.value"
               :placeholder="item.label"
               :class="item.label"/>
